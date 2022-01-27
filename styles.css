@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+label {
+    font-size: 15px;
+    color: rgb(214, 214, 214)
+}
+
+.font {
+    color: rgb(214, 214, 214);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-form {
+    width: 25%;
+    height: 30px;
+}
+
+.button {
+    border-radius: 10%;
+}
+
+.button-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.logo-fortune {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.white-text {
+    color: rgb(214, 214, 214);
+}

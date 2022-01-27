@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FortuneOnline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-fortune">
+        <img src="logo.png" alt="logo" />
+    </div>
+    <form action="results.html" method="get" id="fortuneForm" class="center">
+
+        <label for="name">First Name:</label>
+        <input class="big-form" type="text" name="name" placeholder="First Name">
+
+        <label for="day">Day of Birth:</label>
+        <input class="big-form" type="number" name="day" placeholder="Day of Birth">
+
+        <label for="month">Month of Birth:</label>
+        <input class="big-form" type="number" name="month" placeholder="Month">
+
+        <label for="eye">Eye Color:</label>
+        <select class="big-form" name="eye" id="eye">
+            <option value="brown">Brown</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="amber">Amber</option>
+            <option value="hazel">Hazel</option>
+        </select>
+
+        <label for="hair">Hair Color:</label>
+        <select class="big-form" name="hair" id="hair">
+            <option value="brown">Brown</option>
+            <option value="blonde">Blonde</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+        </select>
+
+        <input class="center" type="submit" value="Submit">
+    </form>
+</body>
+<script src="fortune.js"></script>
+</html>
